@@ -1,0 +1,13 @@
+#IGNORE VENV DIRECTORIES
+.venv/
+
+#IGNORE CONFIG
+config/
+
+#IGNORE ENV
+.env
+
+#PYCHARM FILES AND DIRECTORIES
+.idea/
+__pycache__/
+*.py[cod]
