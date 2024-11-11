@@ -55,5 +55,11 @@ class WaterQualityModel:
 
 if __name__ == '__main__':
     model = WaterQualityModel()
-    print("Predicted water quality acceptable:", model.predict_water_quality(8, 2, 198, 30))
+    print("Predicted water quality acceptable:",
+          model.predict_water_quality(
+              8.852142919229749,
+              2.755314642153955,
+              198.79151962879993,
+              30.933627943827446))
+
     print("Model accuracy:", model.get_model_accuracy(), "%")
